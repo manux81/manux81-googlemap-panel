@@ -1,7 +1,7 @@
 {
   "name": "manux81-googlemap-panel",
   "version": "0.0.1",
-  "description": "A panel to enable to show data by google map",
+  "description": "A Grafana plugin panel to pinpoint location on Google Maps",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
