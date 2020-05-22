@@ -1,0 +1,15 @@
+<div class="editor-row">
+    <div class="section gf-form-group">    
+    <h5 class="section-heading">Connection</h5>
+    <div class="gf-form">
+      <label class="gf-form-label width-8">Api Key</label>
+      <input
+        type="text"
+        ng-model="ctrl.panel.googleApiKey"
+        class="gf-form-input"
+        ng-change="ctrl.connect(); ctrl.refresh()"
+        min="1"
+      />
+    </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+{
+  "type": "panel",
+  "name": "GoogleMap Panel",
+  "id": "manux81-googlemap-panel",
+  "info": {
+    "description": "A panel to enable grafana to show data by google map",
+    "author": {
+      "name": "Manuele Conti",
+      "url": ""
+    },
+    "keywords": [ ],
+    "logos": {
+      "small": "img/google_map.png",
+      "large": "img/google_map.png"
+    },
+    "links": [ ],
+    "screenshots": [ ],
+    "version": "0.0.1",
+    "updated": "2020-05-16"
+  },
+  "dependencies": {
+    "grafanaVersion": "6.7.x",
+    "plugins": [ ]
+  }
+}

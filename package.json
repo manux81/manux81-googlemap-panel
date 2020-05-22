@@ -1,0 +1,34 @@
+{
+  "name": "manux81-googlemap-panel",
+  "version": "0.0.1",
+  "description": "A panel to enable to show data by google map",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "author": "Manuele Conti",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/runtime": "^6.7.2",
+    "@grafana/data": "next",
+    "@grafana/toolkit": "next",
+    "@grafana/ui": "next",
+    "@types/jquery": "^3.3.34",
+    "@types/paho-mqtt": "^1.0.4",
+    "@types/grafana": "github:CorpGlory/types-grafana.git"
+  },
+  "dependencies": {
+    "angular": "^1.7.9",
+    "google-maps": "^4.2.3",
+    "jquery": "^3.4.1",
+    "mqtt": "^3.0.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.9.0"
+  },
+  "engines": {
+    "node": ">=10 <15"
+  }
+}
