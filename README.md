@@ -3,7 +3,7 @@
 This plugin shows how to embed a Google Maps window in a Grafana dashboard
 pinpointing coordinates read from the datasource.
 
-![GoogleMapPanel](https://github.com/ddileo/manux81-googlemap-panel/raw/master/src/GoogleMapPanel.png)
+![GoogleMapPanel](https://github.com/manux81/manux81-googlemap-panel/blob/master/src/img/google_map.png)
 
 # Application
 
