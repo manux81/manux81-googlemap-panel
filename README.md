@@ -1,9 +1,9 @@
 # A Google Maps plugin for Grafana
 
-This plugin shows how to embedd a Google Maps window in a Grafana dashboard
+This plugin shows how to embed a Google Maps window in a Grafana dashboard
 pinpointing coordinates read from the datasource.
 
-![GoogleMapPanel](https://github.com/ddileo/manux81-googlemap-panel/raw/master/GoogleMapPanel.png)
+![GoogleMapPanel](https://github.com/ddileo/manux81-googlemap-panel/raw/master/src/GoogleMapPanel.png)
 
 # Application
 
@@ -12,7 +12,7 @@ Prometheus, InfluxDB, Graphite, Elasticsearch, MySQL etc...
 and it can be in a Table format.
 
 In order to allow the plugin to make use of the coordinates produced by the query,
-it is necessary to specify two colums called «lat» for latitude and «lng» for longitude.
+it is necessary to specify two columns called «lat» for latitude and «lng» for longitude.
 
 For instance:
 
