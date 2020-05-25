@@ -34,7 +34,7 @@ The required Google API key must be entered in the server section.
   };
 ```
 
-Build
+# Build
 In order to build the code, either Yarn or npm must be used.
 In the first place, dependencies must be installed with:
 ```
