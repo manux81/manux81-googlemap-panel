@@ -19,7 +19,7 @@ SELECT d0 as lat, d1 as lng
 FROM table_name
 WHERE $__timeFilter(time_index)
 ORDER BY time_index
-'''
+```
 
 # Settings
 
@@ -30,7 +30,7 @@ The required Google API key must be entered in the server section.
   panelDefaults = {
     googleApiKey: ""
   };
-'''
+```
 
 Build
 In order to build the code, either Yarn or npm must be used.
