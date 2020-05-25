@@ -16,14 +16,12 @@
     "@grafana/toolkit": "next",
     "@grafana/ui": "next",
     "@types/jquery": "^3.3.34",
-    "@types/paho-mqtt": "^1.0.4",
     "@types/grafana": "github:CorpGlory/types-grafana.git"
   },
   "dependencies": {
     "angular": "^1.7.9",
     "google-maps": "^4.2.3",
-    "jquery": "^3.4.1",
-    "mqtt": "^3.0.0"
+    "jquery": "^3.4.1"
   },
   "resolutions": {
     "@babel/preset-env": "7.9.0"
