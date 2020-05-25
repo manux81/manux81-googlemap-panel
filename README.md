@@ -1,27 +1,36 @@
-A Google Maps plugin for Grafana
+# A Google Maps plugin for Grafana
+
 This plugin shows how to embedd a Google Maps window in a Grafana dashboard
 pinpointing coordinates read from the datasource.
 
-Application
+# Application
+
 Data comes from a database query.
 Prometheus, InfluxDB, Graphite, Elasticsearch, MySQL etc...
-It can be in a Table format.
+and it can be in a Table format.
 
 In order to allow the plugin to make use of the coordinates produced by the query,
 it is necessary to specify two colums called «lat» for latitude and «lng» for longitude.
 
 For instance:
 
+```
 SELECT d0 as lat, d1 as lng
 FROM table_name
 WHERE $__timeFilter(time_index)
 ORDER BY time_index
+'''
 
-Settings
+# Settings
+
 Google API key
-In order to use the plugin it's necessary to specify the Google API key in the server section.
+The required Google API key must be entered in the server section.
 
-<Add map option?>
+```
+  panelDefaults = {
+    googleApiKey: ""
+  };
+'''
 
 Build
 In order to build the code, either Yarn or npm must be used.
@@ -37,6 +46,8 @@ You can also run the code in development with:
 
 npm run dev
 
-Contributing
-Kindly find here how to contribute
-manux81-googlemap-panel
+# Contributing
+
+Kindly find below how to contribute
+
+https://docs.synchronicity-iot.eu/docs/contributing/contribution
