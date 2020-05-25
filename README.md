@@ -3,6 +3,8 @@
 This plugin shows how to embedd a Google Maps window in a Grafana dashboard
 pinpointing coordinates read from the datasource.
 
+![Worldmap](https://raw.githubusercontent.com/grafana/worldmap-panel/54f83cfdc7339fee02df00933422c35630677330/src/images/GoogleMapPanel.png)
+
 # Application
 
 Data comes from a database query.
@@ -35,17 +37,17 @@ The required Google API key must be entered in the server section.
 Build
 In order to build the code, either Yarn or npm must be used.
 In the first place, dependencies must be installed with:
-
+```
 npm install
-
+```
 After that, the plugin can be built with:
-
+```
 npm run build
-
+```
 You can also run the code in development with:
-
+```
 npm run dev
-
+```
 # Contributing
 
 Kindly find below how to contribute
